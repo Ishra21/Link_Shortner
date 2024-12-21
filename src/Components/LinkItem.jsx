@@ -16,7 +16,7 @@ const LinkItem = ({ link }) => {
 
 
     return (
-        <div className='relative border bg-white rounded-sm p-3 flex flex-wrap items-center justify-between my-2'>
+        <div className='relative border bg-white rounded-sm p-3 flex flex-wrap items-center justify-between my-2 overflow-hidden'>
             <div>
                 <a href={link.data} target='_blank' className='text-blue-700 text-xl font-bold flex flex-wrap'>{link.data}</a>
                 <p className='text-sm text-gray-700 my-3 flex flex-wrap'>Original URL : {link.originalURL}</p>
