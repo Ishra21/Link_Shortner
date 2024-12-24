@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Form from './Components/Form'
 import LinkContainer from './Components/LinkContainer'
 import { LinkProvider } from './Context/LinkContext'
+import { ToastContainer } from 'react-toastify';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Form/>
       <LinkContainer/>
     </div>
+    <ToastContainer/>
     </LinkProvider>
   )
 }

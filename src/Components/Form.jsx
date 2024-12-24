@@ -30,9 +30,9 @@ const {dispatch} = useContext(LinkContext)
     return (
         <>
             <h1 className='text-white font-black text-3xl md:text-5xl md:max-w-lg text-center mx-w-sm'>Shorten Your Big URL With Our Tool.</h1>
-            <form className='my-3 w-3/4' onSubmit={handleSubmit}>
+            <form className='my-3 w-3/4 ' onSubmit={handleSubmit}>
                 <input value={text} onChange={(e)=>setText(e.target.value)} type="text" placeholder='Enter URL' className='p-4 rounded-l-md w-3/4 focus:outline-none' />
-                <button className='p-4  rounded-r-md w-1/4 bg-green-700'><p className='text-white font-extrabold tracking-wider'>Shorten</p></button>
+                <button className='p-4  rounded-r-md w-1/4  bg-green-700'><p className='text-white font-extrabold tracking-wider'>Shorten</p></button>
             </form>
         </>
     )
